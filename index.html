@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style.css">
+    <title>Admin Panel</title>
+</head>
+
+<body>
+  <div class="side-menu">
+    <div class="brand-name">
+        <h3>Made 2 Automate</h3>
+    </div>
+    <ul>
+        <li><img src="/image/dashboard.png" alt="">&nbsp; <span>Dashboard</span> </li>
+        <li><img src="/image/new-product.png" alt="">&nbsp;<span>Product</span> </li>
+        <li><img src="/image/solutions.png" alt="">&nbsp;<span>Solution</span> </li>
+        <li><img src="/image/brand.png" alt="">&nbsp;<span>Our Brand</span> </li>
+        <li><img src="/image/business-and-finance.png" alt="">&nbsp;<span>Income</span> </li>
+        <li><img src="/image/handshake.png" alt="">&nbsp; <span>Help</span></li>
+        <li><img src="/image/setting.png" alt="">&nbsp;<span>Settings</span> </li>
+    </ul>
+</div>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="/image/search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn">Add New</a>
+                    <img src="/image/notifications.png" alt="">
+                    <div class="/image/img-case">
+                        <img src="/image/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Total Order</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="/image/online-shopping.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>153</h1>
+                        <h3>Stock</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="/image/stock.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>125</h1>
+                        <h3>Dead Stock</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="/image/stock.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>25</h1>
+                        <h3>Total Leads</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="/image/user-engagement.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                  <div class="box">
+                      <h1>105</h1>
+                      <h3>Order</h3>
+                  </div>
+                  <div class="icon-case">
+                      <img src="/image/cargo.png" alt="">
+                  </div>
+              </div>
+              <div class="card">
+                <div class="box">
+                    <h1>1,11,200</h1>
+                    <h3>Total Revanue</h3>
+                </div>
+                <div class="icon-case">
+                    <img src="/image/revenue.png" alt="">
+                </div>
+            </div>
+                
+            </div>
+            <div class="content-2">
+
+                <div class="total-order">
+                    <div class="title">
+                        <h2>Total order</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <div class="product-list">
+                      
+                      <div class="separator"></div>
+                        
+                      <ul class="product-list-items">
+                      
+                          <li class="product-list-item"><h5>IR sencer</h5>
+                          <p>Description of the product</p>
+                          <p>Quantity:54</p>
+                          </li>
+                          <br>
+                          <li class="product-list-item"><h5>IR sencer</h5>
+                            <p>Description of the product</p>
+                            <p>Quantity:34</p>
+                            </li>
+                      </ul>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="content-2">
+              <div class="total-lead">
+                  <div class="title">
+                      <h2>Total Lead</h2>
+                      
+                      <a href="#" class="btn">View All</a>
+                      
+                  </div>
+                  <div class="product-list">
+                      
+                    <div class="separator"></div>
+                      
+                    <ul class="product-list-items">
+                    
+                        <li class="product-list-item"><h5>Rakesh Verma</h5>
+                        <p>I need the IR sencer please Contact me</p>
+                        <p>Quantity:-34 pices</p>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              
+          </div>
+          <!-- order-->
+          <div class="content-2">
+            <div class="total-order">
+                <div class="title">
+                    <h2> order</h2>
+                    <a href="#" class="btn">View All</a>
+                </div>
+                <div class="product-list"> 
+                  <div class="product-box">
+                    <img src="/image/web-analytics.png" alt="Product 1" class="product-image">
+                </div>
+                <div class="product-box">
+               
+                  <h4>Length Counter Meter with PNP/NPN senser| nake : Multiple LC-104660</h4>
+                  <p>Product description goes here.</p>
+                  <div class="action-buttons">
+                      <button onclick="viewDetails('Product 1')">View All</button>
+                      <button onclick="orderAgain('Product 1')">Order Again</button>
+                  </div>
+              
+            
+            </div>
+            
+        </div>
+        <!-- end order-->
+        </div>
+    </div>
+
+    
+  </div>
+</div>
+</div>
+    
+</body>
+<script>
+  function viewDetails(productName) {
+      alert('View all details for ' + productName);
+      // Implement your view details logic here
+  }
+
+  function orderAgain(productName) {
+      alert('Order again for ' + productName);
+      // Implement your order again logic here
+  }
+</script>
+</html>
